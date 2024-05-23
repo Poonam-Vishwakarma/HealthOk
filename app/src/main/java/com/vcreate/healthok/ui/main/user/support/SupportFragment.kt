@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.healthok.adapters.MessageAdapter
 import com.example.healthok.data.model.Message
 import com.vcreate.healthok.R
+import com.vcreate.healthok.utils.Utility
 import okhttp3.Call
 import okhttp3.Callback
 import okhttp3.MediaType
@@ -102,7 +103,7 @@ class SupportFragment : Fragment() {
         val body : RequestBody = RequestBody.create(JSON,jsonBody.toString())
         val request: Request = Request.Builder()
             .url("https://api.openai.com/v1/completions")
-            .header("Authorization", "Bearer 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")
+            .header("Authorization", "Bearer ${Utility.API_KEY}")
             .post(body)
             .build()
         client.newCall(request).enqueue(object : Callback {
