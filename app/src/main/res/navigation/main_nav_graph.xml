@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/splashFragment">
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.vcreate.healthok.ui.onboarding.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" />
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.vcreate.healthok.ui.onboarding.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" />
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.vcreate.healthok.ui.onboarding.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.vcreate.healthok.ui.authentication.SignUpFragment"
+        android:label="fragment_sign_up"
+        tools:layout="@layout/fragment_sign_up" >
+        <argument
+            android:name="USER_TYPE"
+            app:argType="com.vcreate.healthok.models.enum.UserType"
+            android:defaultValue="ADMIN" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.vcreate.healthok.ui.authentication.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="com.vcreate.healthok.ui.main.user.HomeActivity"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" />
+    <fragment
+        android:id="@+id/forgetPasswordFragment"
+        android:name="com.vcreate.healthok.ui.authentication.forgetpassword.ForgetPasswordFragment"
+        android:label="fragment_forget_password"
+        tools:layout="@layout/fragment_forget_password" />
+    <fragment
+        android:id="@+id/forgetPasswordVerifyOtp"
+        android:name="com.vcreate.healthok.ui.authentication.forgetpassword.ForgetPasswordVerifyOtp"
+        android:label="fragment_forget_password_verify_otp"
+        tools:layout="@layout/fragment_forget_password_verify_otp" />
+    <fragment
+        android:id="@+id/forgetPasswordCreatePasswordFragment"
+        android:name="com.vcreate.healthok.ui.authentication.forgetpassword.ForgetPasswordCreatePasswordFragment"
+        android:label="fragment_forget_password_create_password"
+        tools:layout="@layout/fragment_forget_password_create_password" />
+</navigation>

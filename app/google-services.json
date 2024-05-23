@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "892361801698",
+    "project_id": "healthok-9bcc2",
+    "storage_bucket": "healthok-9bcc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892361801698:android:ceacdf9280d402da4d43bb",
+        "android_client_info": {
+          "package_name": "com.vcreate.healthok"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt7CcpFFxmQISTvYxSI-jhuKTsJ_ervps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

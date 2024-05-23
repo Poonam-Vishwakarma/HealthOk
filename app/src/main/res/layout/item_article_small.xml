@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="12dp"
+    android:elevation="8dp"
+    android:background="@drawable/background_color_grey"
+    android:padding="12dp"
+    android:layout_marginEnd="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/item_article_article_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/article_fruits_image"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/image"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/item_article_small_lin"
+            android:layout_toEndOf="@id/item_article_article_image"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="10dp">
+
+            <TextView
+                android:id="@+id/item_article_article_name"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/top_25_healthiest_fruits_you_can_t_miss"
+                android:textSize="16sp"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/primary"
+                android:maxLines="2"
+                android:maxWidth="250dp"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/item_article_article_author_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/poonam_vishwakarma"
+                    android:singleLine="true"
+                    android:textStyle="bold"
+                    android:lines="1"
+                    android:maxWidth="150dp"/>
+
+                <TextView
+                    android:id="@+id/item_article_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_14_jan_2023"
+                    android:lines="1"
+                    android:layout_marginStart="10dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/item_article_article_bookmark"
+            android:src="@drawable/bookmark_outline"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="5dp"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.vcreate.healthok.ui.main.user.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_doctorDetailFragment2"
+            app:destination="@id/doctorDetailFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_articleDetailFragment"
+            app:destination="@id/articleDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/supportFragment"
+        android:name="com.vcreate.healthok.ui.main.user.support.SupportFragment"
+        android:label="fragment_support"
+        tools:layout="@layout/fragment_support" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.vcreate.healthok.ui.main.user.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/scheduleFragment"
+        android:name="com.vcreate.healthok.ui.main.user.schedule.ScheduleFragment"
+        android:label="fragment_schedule"
+        tools:layout="@layout/fragment_schedule" >
+        <action
+            android:id="@+id/action_scheduleFragment_to_doctorDetailFragment2"
+            app:destination="@id/doctorDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/medicationReminderFragment"
+        android:name="com.vcreate.healthok.ui.main.user.home.medicationreminder.MedicationReminderFragment"
+        android:label="fragment_medication_reminder"
+        tools:layout="@layout/fragment_medication_reminder" />
+    <fragment
+        android:id="@+id/cycleFragment"
+        android:name="com.vcreate.healthok.ui.main.user.home.CycleFragment"
+        android:label="CycleFragment" />
+    <fragment
+        android:id="@+id/hospitalLocationFragment"
+        android:name="com.vcreate.healthok.ui.main.user.home.HospitalLocationFragment"
+        android:label="fragment_hospital_location"
+        tools:layout="@layout/fragment_hospital_location" />
+    <fragment
+        android:id="@+id/editViewProfileFragment"
+        android:name="com.vcreate.healthok.ui.main.user.profile.editprofile.EditViewProfileFragment"
+        android:label="fragment_edit_view_profile"
+        tools:layout="@layout/fragment_edit_view_profile" />
+    <fragment
+        android:id="@+id/doctorDetailFragment"
+        android:name="com.vcreate.healthok.ui.main.user.schedule.DoctorDetailFragment"
+        android:label="fragment_doctor_detail"
+        tools:layout="@layout/fragment_doctor_detail" >
+        <argument
+            android:name="UID"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/doctorHomeFragment2"
+        android:name="com.vcreate.healthok.ui.main.doctor.DoctorHomeFragment"
+        android:label="fragment_doctor_home"
+        tools:layout="@layout/fragment_doctor_home" />
+    <fragment
+        android:id="@+id/doctorProfileFragment2"
+        android:name="com.vcreate.healthok.ui.main.doctor.DoctorProfileFragment"
+        android:label="fragment_doctor_profile"
+        tools:layout="@layout/fragment_doctor_profile" />
+    <fragment
+        android:id="@+id/editProfileDoctorFragment"
+        android:name="com.vcreate.healthok.ui.main.doctor.DoctorEditProfileFragment"
+        android:label="fragment_edit_profile_doctor"
+        tools:layout="@layout/fragment_edit_profile_doctor" />
+    <fragment
+        android:id="@+id/createAppointmentFragment"
+        android:name="com.vcreate.healthok.ui.main.user.schedule.CreateAppointmentFragment"
+        android:label="fragment_create_appointment"
+        tools:layout="@layout/fragment_create_appointment" />
+    <fragment
+        android:id="@+id/articleDetailFragment"
+        android:name="com.vcreate.healthok.ui.main.user.home.ArticleDetailFragment"
+        android:label="fragment_article_detail"
+        tools:layout="@layout/fragment_article_detail" >
+        <argument
+            android:name="ARTICLE_ID"
+            app:argType="long"
+            android:defaultValue="1L" />
+    </fragment>
+    <fragment
+        android:id="@+id/appointmentFragment"
+        android:name="com.vcreate.healthok.ui.main.user.profile.AppointmentFragment"
+        android:label="fragment_appointment"
+        tools:layout="@layout/fragment_appointment" />
+</navigation>

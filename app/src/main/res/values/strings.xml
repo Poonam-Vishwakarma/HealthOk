@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">HealthOk</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="healthok">HealthOk</string>
+    <string name="forget_your_password">Forget Your Password?</string>
+    <string name="enter_your_email_or_your_phone_number_we_will_send_you_confirmation_code">Enter your email or your phone number, we will send you confirmation code</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="image">img\n</string>
+    <string name="granted_msg">All the permissions are granted…</string>
+    <string name="not_granted_msg">All the permissions are not granted…</string>
+    <string name="request_msg">These permissions are required for this application.</string>
+    <string name="click_me">Click Me</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home">Home</string>
+    <string name="treatment">Treatment</string>
+    <string name="shop">Shop</string>
+    <string name="account">Account</string>
+    <string name="pharmacy">Pharmacy</string>
+    <string name="price">$14.58</string>
+    <string name="categories">Categories</string>
+    <string name="popular_product">Popular Product</string>
+    <string name="see_all">See all</string>
+    <string name="username">Username</string>
+    <string name="sign_up">Sign UP?</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="all_doctors">All Doctors</string>
+    <string name="doctor">Doctor</string>
+    <string name="tracking">Tracking</string>
+    <string name="hospital">Hospital</string>
+    <string name="cardiologist">Cardiologist</string>
+    <string name="dr_marcus_horizon">Dr. Marcus Horizon</string>
+    <string name="_4_7">4.7</string>
+    <string name="_10_healthiest_fruits">10 Healthiest Fruits</string>
+    <string name="poonam_vishwakarma">Poonam Vishwakarma</string>
+    <string name="all_articles">All articles</string>
+    <string name="_14_jan_2023">14 Jan 2023</string>
+    <string name="top_25_healthiest_fruits_you_can_t_miss">Top 25 Healthiest Fruits You can\'t miss</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="doctor_about">As a cardiologist, my passion lies in understanding and caring for the intricate workings of the human heart and vascular system. After years of rigorous training and education, I have developed a deep expertise in diagnosing, treating, and preventing cardiovascular diseases.</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+
+    <string name="period_tracking">PERIOD_TRACKING</string>
+    <string name="post_title">Post Title</string>
+    <string name="up_vote_count">10</string>
+    <string name="down_vote_count">6</string>
+    <string name="read_more">Read More</string>
+    <string name="description">Description</string>
+    <string name="author">Author</string>
+    <string name="submit">Submit</string>
+    <string name="date">Date</string>
+    <string name="edit">edit</string>
+    <string name="delete">Delete</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="are_you_sure_1">Are you sure you want to \ndelete the post</string>
+    <string name="yes">YES</string>
+    <string name="cancel">CANCEL</string>
+
+    <string name="all_post">ALL POST</string>
+    <string name="create_post">CREATE_POST</string>
+    <string name="view_post">VIEW POST</string>
+    <string name="content">In the wake of the global COVID-19 pandemic, the importance of awareness has never been more crucial. With its rapid spread and devastating consequences, understanding the virus and how to prevent its transmission has become paramount in safeguarding public health. In this article, we delve into the significance of COVID-19 awareness and explore strategies for combating its spread. Understanding COVID-19: COVID-19, caused by the novel coronavirus SARS-CoV-2, emerged in late 2019 and swiftly evolved into a global health crisis. The virus primarily spreads through respiratory droplets when an infected person coughs, sneezes, or talks. Its symptoms range from mild respiratory issues to severe pneumonia, with some cases resulting in death. Moreover, the virus has shown its ability to mutate, posing challenges to containment efforts and vaccine development. The Role of Awareness: Awareness serves as a powerful tool in controlling the spread of COVID-19. By educating individuals about the virus, its modes of transmission, and preventive measures, communities can empower themselves to make informed decisions to protect their health and the health of others. Awareness campaigns disseminate crucial information regarding hygiene practices, mask-wearing, physical distancing, and vaccination, fostering a collective effort to curb the spread of the virus. Challenges and Misconceptions: Despite concerted efforts to raise awareness, challenges persist in combating COVID-19. Misinformation and misconceptions regarding the virus abound, leading to complacency and resistance to public health measures. Additionally, disparities in access to information and healthcare exacerbate the impact of the pandemic on vulnerable populations. Overcoming these obstacles requires targeted communication strategies, community engagement, and collaboration between governments, healthcare providers, and grassroots organizations. Empowering Communities: Empowering communities to take proactive measures against COVID-19 is essential for effective containment. Local initiatives, such as community outreach programs and grassroots campaigns, play a crucial role in disseminating accurate information and addressing the specific needs of diverse populations. By fostering a sense of collective responsibility and solidarity, communities can mobilize resources and support systems to mitigate the impact of the pandemic. Looking Ahead: As the world continues to grapple with the COVID-19 pandemic, maintaining awareness remains paramount. Vaccination efforts offer hope for controlling the spread of the virus and reducing its severity. However, achieving widespread immunization requires continued education, outreach, and equitable distribution of vaccines. Moreover, ongoing surveillance and adaptation to emerging variants are essential to stay ahead of the virus and prevent future outbreaks. Conclusion: In conclusion, raising awareness of COVID-19 is critical in mitigating its impact and safeguarding public health. By fostering understanding, dispelling misinformation, and empowering communities, we can collectively combat the spread of the virus and navigate the challenges posed by the pandemic. With concerted efforts and solidarity, we can emerge stronger and more resilient in the face of this global health crisis.</string>
+
+</resources>
