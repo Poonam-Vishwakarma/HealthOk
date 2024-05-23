@@ -26,6 +26,8 @@ import org.json.JSONException
 import org.json.JSONObject
 import java.io.IOException
 
+private const val s = "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"
+
 class SupportFragment : Fragment() {
 
     val API_KEY = "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"
