@@ -20,5 +20,5 @@ object Utility {
         return age.toString()
     }
 
-    const val API_KEY = "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"
+    const val varcode = "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"
 }

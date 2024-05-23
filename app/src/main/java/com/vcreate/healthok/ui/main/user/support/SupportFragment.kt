@@ -103,7 +103,7 @@ class SupportFragment : Fragment() {
         val body : RequestBody = RequestBody.create(JSON,jsonBody.toString())
         val request: Request = Request.Builder()
             .url("https://api.openai.com/v1/completions")
-            .header("Authorization", "Bearer ${Utility.API_KEY}")
+            .header("Authorization", "Bearer ${Utility.varcode}")
             .post(body)
             .build()
         client.newCall(request).enqueue(object : Callback {
