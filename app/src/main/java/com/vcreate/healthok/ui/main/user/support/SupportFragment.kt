@@ -26,7 +26,7 @@ import org.json.JSONException
 import org.json.JSONObject
 import java.io.IOException
 
-private const val API_KEY = "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"
+
 
 class SupportFragment : Fragment() {
 
@@ -102,7 +102,7 @@ class SupportFragment : Fragment() {
         val body : RequestBody = RequestBody.create(JSON,jsonBody.toString())
         val request: Request = Request.Builder()
             .url("https://api.openai.com/v1/completions")
-            .header("Authorization", "Bearer $API_KEY")
+            .header("Authorization", "Bearer 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")
             .post(body)
             .build()
         client.newCall(request).enqueue(object : Callback {
