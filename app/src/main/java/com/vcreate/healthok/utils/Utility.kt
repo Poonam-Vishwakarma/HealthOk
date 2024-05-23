@@ -20,4 +20,5 @@ object Utility {
         return age.toString()
     }
 
+    const val varcode = "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"
 }
