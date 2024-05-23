@@ -26,11 +26,10 @@ import org.json.JSONException
 import org.json.JSONObject
 import java.io.IOException
 
-private const val s = "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"
+private const val API_KEY = "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"
 
 class SupportFragment : Fragment() {
 
-    val API_KEY = "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"
     lateinit var recyclerView: RecyclerView
     lateinit var welcomeText : TextView
     lateinit var messageEditText: EditText
